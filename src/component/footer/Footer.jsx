@@ -14,15 +14,41 @@ import "./Footer.css"
 </div>
 
 <div className="second">
-<h1>Opening Hours</h1>
 
-<p>Mon                  Closed</p>
-<p>Tue                10am-9pm</p>
-<p>Wed                  10am-5pm</p>
-<p>Thu                10am-9pm </p>
-<p>Fri                10am-5pm</p>
-<p>Sat                  appointment</p>
-<p>Sun                  Closed</p>
+
+<h1>Opening Hours</h1>
+<table>
+  <tr>
+    <td>Monday </td>
+    <td>Closed</td>
+  </tr>
+  <tr>
+    <td>Tuesday     </td>
+    <td> 10am-9pm</td>
+  </tr>
+  <tr>
+    <td>Wednesday     </td>
+    <td> 10am-5pm</td>
+  </tr>
+  <tr>
+    <td>Thursday </td>
+    <td>10am-9pm</td>
+  </tr>
+  <tr>
+    <td>Friday </td>
+    <td>  10am-5pm</td>
+  </tr>
+  <tr>
+    <td>Saturday </td>
+    <td>  appointment  </td>
+  </tr>
+  <tr>
+    <td>Sunday</td>
+    <td>Closed</td>
+  </tr>
+</table>
+
+
 </div>
 
 <div className="third">
